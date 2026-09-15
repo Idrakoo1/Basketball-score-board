@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball scoreboard</title>
+    <link rel="stylesheet" href="basketball.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+      <div  class="heading">
+            <h2>HOME</h2>
+            <h2>GUEST</h2>
+      </div>
+      <div  style="display: flex; gap: 130px; padding-left: 10px;"  class="score" >
+            <span id="add-el">0</span>
+            <span id="add1-el">0</span>
+      </div>
+         <br>
+         <br>
+         <div class="button-wrapper">
+                <div class="button-group">
+                        <button onclick="add()">+1</button>
+                        <button onclick="add2()">+2</button>
+                        <button onclick="add3()">+3</button>
+                </div>
+                <div class="button-group">
+                        <button onclick="add1G()">+1</button>
+                        <button onclick="add2G()">+2</button>
+                        <button onclick="add3G()">+3</button>
+                </div>
+         </div>
+</div>
+    <script src="basketball.js"></script>
+    
+</body>
+</html>

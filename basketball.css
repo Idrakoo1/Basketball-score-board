@@ -1,0 +1,66 @@
+body{
+    background-image: url(Blauwe\ Basketbalveld\ Poster.jpg);
+  background-repeat: repeat;
+    background-size: 50% auto;
+       font-family: 'Cursed Timer ULiL', sans-serif;
+       display: flex;
+       justify-content: center;
+       
+}
+.container{
+    text-align: center;
+    background-color: rgb(10, 10, 92);
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    color: blue;
+    display: flex;
+    gap: 100px;
+    padding-left: 6px;
+    
+}
+#add-el{
+     height: 50px; 
+     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      color: red;
+    background-color: blue;
+    font-size: xx-large;
+    padding-left: 5px;
+}
+#add1-el{
+    height: 50px; 
+     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      color: red;
+    background-color: blue;
+    font-size: xx-large;
+    padding-left: 6px;
+     
+}
+
+
+.button-wrapper{
+    display: flex;
+    gap: 40px;
+    padding-left:4px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    
+    background-color: blue;
+    color: blue;
+    
+    
+}
+.button-group{
+    display: flex;
+    gap: 2px;
+    border-radius: 30px;
+
+}
